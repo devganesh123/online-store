@@ -1,0 +1,8 @@
+.card-item_cart {
+  display: flex;
+  justify-content: space-between;
+}
+.card-item {
+  flex: 0 0 30%;
+  max-width: 30%;
+}

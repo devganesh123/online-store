@@ -1,0 +1,19 @@
+.cart-button {
+  background: red;
+}
+
+.card-item_cart {
+  display: flex;
+  justify-content: space-between;
+}
+.cart-section {
+  margin-top: 1em;
+}
+.cart-total {
+  margin-top: 1em;
+}
+.cart-buttons {
+  display: flex;
+  gap: 1em;
+  margin-top: 1em;
+}

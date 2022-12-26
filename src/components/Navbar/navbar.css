@@ -1,0 +1,28 @@
+.top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #c3c3c3;
+  padding: 10px 2em;
+}
+.nav a,
+.nav a:hover {
+  color: #000;
+  text-decoration: none;
+}
+.header-cart {
+  position: relative;
+}
+.cart-count {
+  position: absolute;
+  background: red;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  color: white;
+  top: -6px;
+  left: 15px;
+  font-size: 15px;
+  display: inline-block;
+}
