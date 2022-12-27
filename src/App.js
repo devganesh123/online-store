@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Navbar, Products, Cart } from "./components";
+import { Navbar, Products, Cart, Checkout } from "./components";
 import { commerce } from "./lib/commerce";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 const App = () => {
@@ -90,6 +90,11 @@ const App = () => {
                 handleEmptyCart={handleEmptyCart}
               ></Cart>
             }
+          ></Route>
+          <Route
+            exact
+            path="/checkout"
+            element={<Checkout cart={cart}></Checkout>}
           ></Route>
         </Routes>
       </div>

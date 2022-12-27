@@ -2,6 +2,7 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import "./cart.css";
 import CartItem from "./CartItem";
+import { Link } from "react-router-dom";
 
 const Cart = ({
   cart,
@@ -61,6 +62,8 @@ const Cart = ({
               size="small"
               color="secondary"
               variant="contained"
+              component={Link}
+              to="/checkout"
             >
               Checkout
             </Button>
